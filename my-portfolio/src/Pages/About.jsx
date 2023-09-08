@@ -3,3 +3,4 @@ export default function About () {
         <h2>About Me</h2>
     )
 }
+//technologies
