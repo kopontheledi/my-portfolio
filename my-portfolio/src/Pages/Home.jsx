@@ -18,11 +18,11 @@ export default function HomePage() {
                 </button>
             </a>
 
-            <a href="https://www.udemy.com/course/nextjs-react-the-complete-guide/learn/lecture/25145618#overview">
+            {/* <a href="https://www.udemy.com/course/nextjs-react-the-complete-guide/learn/lecture/25145618#overview">
                 <button className={classes.btn}>
                     <img className={classes.icon} src="public/images/e-learning.png" alt=""/>
                 </button>
-            </a>
+            </a> */}
        
     </div>
   );

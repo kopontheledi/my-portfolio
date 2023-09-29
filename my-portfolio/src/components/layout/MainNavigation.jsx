@@ -1,14 +1,15 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import classes from './'
 
 
 export default function MainNavigation(){
     return ( 
     <div>
-        <header>
-            <div>
+        <header className={classes.header}>
+            <div className={classes.name}>
                 <h2>Kopo Ntheledi</h2>
             </div>
-       <nav>
+       <nav className={classes.nav}>
         <ul>
             <li>
                <Link to='/'>Home</Link> 
@@ -19,7 +20,7 @@ export default function MainNavigation(){
             </li>
 
             <li>
-               <Link to='/portfolio'>Portfolio</Link> 
+               <Link to='/portfolio'>Projects</Link> 
             </li>
 
             <li>

@@ -1,0 +1,28 @@
+/* navigation */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333; 
+    color: #fff; 
+  }
+  
+  .name {
+    flex: 1; /* Takes up available space on the left */
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Adjust the space between navigation items */
+  }
+  
+  .nav li {
+    font-size: 18px; /* Adjust the font size */
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #fff; /* You can set your desired link color */
+  }
