@@ -3,8 +3,10 @@ import classes from './pages.module.css'
 export default function HomePage() {
   return (
     <div>
-      <h1>Junior Software developer</h1>
-      <h3>slogan..</h3>
+      <h3>Kopo Ntheledi is a passionate Junior Full-Stack Developer with a strong
+        desire to create innovative solutions and make a positive impact through
+        technology. My journey in the world of software development started in
+        November 2022, and I have been hooked ever since.</h3>
         
             <a className={classes.iconlink} href="https://github.com/kopontheledi">
                 <button className={classes.btn}>

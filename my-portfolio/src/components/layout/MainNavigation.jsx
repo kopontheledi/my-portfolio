@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import classes from './'
+import classes from './Style.module.css'
 
 
 export default function MainNavigation(){
@@ -7,7 +7,8 @@ export default function MainNavigation(){
     <div>
         <header className={classes.header}>
             <div className={classes.name}>
-                <h2>Kopo Ntheledi</h2>
+                <h1>Kopo Ntheledi</h1>
+                <h2>Junior Software Developer</h2>
             </div>
        <nav className={classes.nav}>
         <ul>

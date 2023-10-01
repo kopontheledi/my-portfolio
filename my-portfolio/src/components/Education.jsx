@@ -1,42 +1,31 @@
-
-
-function KopoNtheledi() {
+function Education() {
   // Define your education, soft skills, and technical skills here
   const education = [
-    {
-      type: "High School",
-      school: "Sample High School",
-      year: "2008-2012",
-    },
-    {
-      type: "Higher Education",
-      school: "Sample University",
-      degree: "Bachelor's in Computer Science",
-      year: "2012-2016",
-    },
     {
       type: "CodeSpace",
       school: "CodeSpace Academy",
       program: "Full Stack Web Development",
+      year: "2022-Currently",
+    },
+    
+    {
+      type: "Higher Education",
+      school: "Orbit Tvet College",
+      degree: "Electrical Engineering",
       year: "2020-2021",
     },
+    {
+      type: "High School",
+      school: "HTS Rustenburg",
+      year: "2015-2019",
+    },
+    
   ];
 
-  const softSkills = ["Communication", "Teamwork", "Problem Solving"];
   
-  const technicalSkills = [
-    "JavaScript",
-    "React",
-    "Node.js",
-    "HTML",
-    "CSS",
-    "Python",
-    "Database Management",
-  ];
 
   return (
-    <div className="about-me">
-      <h2>About Me</h2>
+    <div>
 
       <h3>Education</h3>
       <ul>
@@ -49,21 +38,8 @@ function KopoNtheledi() {
         ))}
       </ul>
 
-      <h3>Soft Skills</h3>
-      <ul>
-        {softSkills.map((skill, index) => (
-          <li key={index}>{skill}</li>
-        ))}
-      </ul>
-
-      <h3>Technical Skills</h3>
-      <ul>
-        {technicalSkills.map((skill, index) => (
-          <li key={index}>{skill}</li>
-        ))}
-      </ul>
     </div>
   );
 }
 
-export default KopoNtheledi;
+export default Education;

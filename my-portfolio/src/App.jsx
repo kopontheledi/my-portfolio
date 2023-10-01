@@ -4,6 +4,8 @@ import ContactDetails from "./Pages/ContactDetails";
 import Portfolio from "./Pages/Portfolio";
 import MainNavigation from "./components/layout/MainNavigation";
 import HomePage from "./Pages/Home";
+import Education from "./components/Education";
+import Skills from "./components/Skills";
 
 
 function App() {
@@ -26,6 +28,14 @@ function App() {
 
         <Route path='/contact'>
           <ContactDetails />
+        </Route>
+
+        <Route path='/contact'>
+          <Education />
+        </Route>
+
+        <Route path='/contact'>
+          <Skills />
         </Route>
 
       </Switch>

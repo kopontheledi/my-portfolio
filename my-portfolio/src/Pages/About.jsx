@@ -1,11 +1,13 @@
-import KopoNtheledi from "../components/Education"
+import Education from "../components/Education"
+import Skills from "../components/Skills"
+
 
 export default function About () {
     return ( <> 
     <h2>About Me</h2>
-    <KopoNtheledi />
+    <Education />
+    <Skills />
     </>
         
     )
 }
-//technologies, skills, and a short intro about myself
