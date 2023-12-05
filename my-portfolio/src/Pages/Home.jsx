@@ -5,9 +5,9 @@ export default function HomePage() {
     <div>
       <h3>Hi, my name is Kopo Ntheledi</h3>
       <h3>I am a Junior Software Developer</h3>
-      <h3>I have a  strong desire to create innovative solutions and make a positive impact through
+      <p>I have a  strong desire to create innovative solutions and make a positive impact through
         technology. My journey in the world of software development started in
-        November 2022, and I have been hooked ever since.</h3>
+        November 2022, and I have been hooked ever since.</p>
         
             <a className={classes.iconlink} href="https://github.com/kopontheledi">
                 <button className={classes.btn}>
