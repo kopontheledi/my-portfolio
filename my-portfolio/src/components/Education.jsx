@@ -1,5 +1,4 @@
 function Education() {
-  // Define your education, soft skills, and technical skills here
   const education = [
     {
       type: "CodeSpace",
@@ -7,7 +6,7 @@ function Education() {
       program: "Full Stack Web Development",
       year: "2022-Currently",
     },
-    
+
     {
       type: "Higher Education",
       school: "Orbit Tvet College",
@@ -19,14 +18,10 @@ function Education() {
       school: "HTS Rustenburg",
       year: "2015-2019",
     },
-    
   ];
-
-  
 
   return (
     <div>
-
       <h3>Education</h3>
       <ul>
         {education.map((edu, index) => (
@@ -37,7 +32,6 @@ function Education() {
           </li>
         ))}
       </ul>
-
     </div>
   );
 }

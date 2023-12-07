@@ -9,12 +9,12 @@ export default function MainNavigation(){
             <div className={classes.name}>
                 <h1>Kopo Ntheledi</h1>
                 {/* <h2>Junior Software Developer</h2> */}
-                {/* <img
+                 {/* <img
                 src="./Images/professional.jpg"
                 width={150}
                 height={150}
 
-                /> */}
+                />  */}
             </div>
        <nav className={classes.nav}>
         <ul>

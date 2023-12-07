@@ -1,9 +1,28 @@
 body{
   font-family: sans-serif;
+  color: white;
+  background-color: #33293F;
 }
 
 .icon {
     width: 100px
+}
+ 
+.home {
+  display: flex;
+  gap: 20px;
+  padding: 5%;
+  background-color:#401F3E;
+}
+
+.image {
+  border-radius: 50%;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.info {
+  box-shadow: 10px 10px 8px #888888;
+  width: 1000px;
 }
 
 .btn{
@@ -72,7 +91,7 @@ body{
 }
 
 .name {
-  flex: 1; /* Takes up available space on the left */
+  flex: 1; 
 }
 
 .nav ul {
@@ -88,4 +107,18 @@ body{
 .nav a {
   text-decoration: none;
   color: #fff; /* You can set your desired link color */
+}
+
+.about1 {
+  background-image: url(../public/Images/hero.gif);
+}
+.about {
+  display: flex;
+  gap: 50px;
+  
+}
+.img {
+  display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 5px;
 }
